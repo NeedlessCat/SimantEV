@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Ecolens</title>
+
+    <!-- Favicons -->
+    <link href="img/favicon1.jpg" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Vendor CSS Files -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link
+      href="vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="vendor/venobox/venobox.css" rel="stylesheet" />
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header-tops">
+      <div class="container">
+        <h1><a href="main.html">ECOLENS</a></h1>
+        <h2>AI-Driven <span>Environemt Impact </span>Assessment</h2>
+        <div class="social-links">
+          <input type="text" placeholder="Write Your Name" id="inputValue" />
+          <a href="#about"><button class="btn" id="btn">Get Started</button></a>
+        </div>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="#header">Home</a></li>
+            <li><a href="#about">Predictor</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <!-- ======= About Me ======= -->
+      <div class="about-me container">
+        <div class="section-title">
+          <h2 id="username">Welcome Aayush</h2>
+          <p>Put your values for prediction here</p>
+        </div>
+
+        <!-- ======= Form ======= -->
+        <div class="d-flex mb-3">
+          <div class="interests container mr-2">
+            <div class="section-title">
+              <h2>Your Selections</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-12 mt-md-2 durationop">
+                <div class="icon-box">
+                  <img
+                    src="./img/unit/GWh.png"
+                    id="unitimg"
+                    class="mr-2"
+                    style="width: 35px"
+                    alt="aus"
+                  />
+                  <h3 id="durationh3">Project Duration</h3>
+                </div>
+              </div>
+              <div class="col-12 regionop">
+                <div class="icon-box">
+                  <img
+                    src="./img/region/World.png"
+                    id="regionimg"
+                    class="mr-2"
+                    style="width: 35px"
+                    alt="aus"
+                  />
+                  <h3 id="regionh3">Region</h3>
+                </div>
+              </div>
+              <div class="col-12 mt-md-2 typeop">
+                <div class="icon-box">
+                  <img
+                    src="./img/category/Historical.png"
+                    id="categoryimg"
+                    class="mr-2"
+                    style="width: 35px"
+                    alt="aus"
+                  />
+                  <h3 id="typeh3">Project Type</h3>
+                </div>
+              </div>
+              <div class="col-12 mt-md-2 impactop">
+                <div class="icon-box">
+                  <img
+                    src="./img/parameter/EV stock share.png"
+                    id="parameterimg"
+                    class="mr-2"
+                    style="width: 35px"
+                    alt="aus"
+                  />
+                  <h3 id="impacth3">Area Impact</h3>
+                </div>
+              </div>
+              <div class="col-12 mt-md-2 modeop">
+                <div class="icon-box">
+                  <img
+                    src="./img/mode/Buses.png"
+                    id="modeimg"
+                    class="mr-2"
+                    style="width: 35px"
+                    alt="aus"
+                  />
+                  <h3 id="modeh3">Mode</h3>
+                </div>
+              </div>
+              <div class="col-12 mt-md-2 water_Pollutionop">
+                <div class="icon-box">
+                  <i class="ri-database-2-line" style="color: #47aeff"></i>
+                  <h3 id="water_Pollutionh3">Water Pollution</h3>
+                </div>
+              </div>
+              <div class="col-12 mt-md-2 air_Pollutionop">
+                <div class="icon-box">
+                  <i class="ri-database-2-line" style="color: #47aeff"></i>
+                  <h3 id="air_Pollutionh3">Air Pollution</h3>
+                </div>
+              </div>
+              <div class="col-12 mt-md-2 carbon_Footprintop">
+                <div class="icon-box">
+                  <i class="ri-gradienter-line" style="color: #ffa76e"></i>
+                  <h3 id="carbon_Footprinth3">Carbon Footprint</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="form" id="form">
+            <h2>Select Options Here!!</h2>
+            <select id="unit" name="duration">
+              <option value="" disabled selected hidden>
+                Select Project Duration(yrs)
+              </option>
+              <option value="1 yrs">1</option>
+              <option value="2 yrs">2</option>
+              <option value="3 yrs">3</option>
+              <option value="4 yrs">4</option>
+              <option value="5 yrs">5</option>
+              <option value="6 yrs">6</option>
+            </select>
+            <select id="region" name="region">
+              <option value="" disabled selected hidden>
+                Select the Region
+              </option>
+              <option value="Pune">Pune</option>
+              <option value="Hyderabad">Hyderabad</option>
+              <option value="Jaipur">Jaipur</option>
+              <option value="Kolkata">Kolkata</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Banglore">Banglore</option>
+            </select>
+            <select id="category" name="type">
+              <option value="" disabled selected hidden>
+                Select the Project Type
+              </option>
+              <option value="Urban">Urban</option>
+              <option value="Rural">Rural</option>
+              <option value="Energy">Energy</option>
+              <option value="Transportation">Transportation</option>
+              <option value="Construction">Construction</option>
+              <option value="Water Management">Water Management</option>
+            </select>
+            <select id="parameter" name="impact">
+              <option value="" disabled selected hidden>
+                Select the Area Impact(sq.km)
+              </option>
+              <option value="0-20 square km">0-20</option>
+              <option value="20-40 square km">20-40</option>
+              <option value="40-60 square km">40-60</option>
+              <option value="60-80 square km">60-80</option>
+              <option value="80-100 square km">80-100</option>
+            </select>
+            <select id="mode" name="mode">
+              <option value="" disabled selected hidden>Select the Mode</option>
+              <option value="Implemented">Implmented</option>
+              <option value="Planned">Planned</option>
+              <option value="Not Applied">Not Applied</option>
+            </select>
+            <select id="powertrain" name="water_Pollution">
+              <option value="" disabled selected hidden>
+                Range of Water Pollution(tons/yr)
+              </option>
+              <option value="0-20 tons/year">0-20</option>
+              <option value="20-40 tons/year">20-40</option>
+              <option value="40-60 tons/year">40-60</option>
+              <option value="60-80 tons/year">60-80</option>
+              <option value="80-100 tons/year">80-100</option>
+            </select>
+            <select id="powertrain" name="air_Pollution">
+              <option value="" disabled selected hidden>
+                Range of Air Pollution(tons/yrs)
+              </option>
+              <option value="0-20 tons/year">0-20</option>
+              <option value="20-40 tons/year">20-40</option>
+              <option value="40-60 tons/year">40-60</option>
+              <option value="60-80 tons/year">60-80</option>
+              <option value="80-100 tons/year">80-100</option>
+            </select>
+            <select id="year" name="carbon_Footprint">
+              <option value="" disabled selected hidden>
+                Range of Carbon Footprint
+              </option>
+              <option value="1000-3000 tons/year">1000-3000</option>
+              <option value="3000-5000 tons/year">3000-5000</option>
+              <option value="5000-7000 tons/year">5000-7000</option>
+              <option value="7000-9000 tons/year">7000-9000</option>
+              <option value="9000-11000 tons/year">9000-11000</option>
+            </select>
+
+            <button class="btn" type="submit">Ask to Suggest</button>
+          </form>
+        </div>
+        <!-- ======= Interests ======= -->
+        <div class="interests container mb-3">
+          <div class="section-title">
+            <h2>Model Prediction</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-4">
+              <div class="icon-box">
+                <i class="ri-store-line" style="color: #ffbb2c"></i>
+                <h3>Impact Value</h3>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-8">
+              <div class="icon-box">
+                <i class="ri-bar-chart-box-line" style="color: transparent"></i>
+                <h3 id="valuepred"></h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-11 mt-2">
+              <div class="icon-box">
+                <i class="ri-bar-chart-box-line" style="color: transparent"></i>
+                <div>
+                  <p id="impactpred"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Projects Section ======= -->
+    <script>
+      const randomValues = [
+        "12.34567",
+        "23.45678",
+        "34.56789",
+        "45.67890",
+        "56.78901",
+        "67.89012",
+      ];
+
+      const suggestionValues = [
+        "<p>Hello I am good!</p><p>bye bye</p>",
+        "Good Luck With your project",
+      ];
+
+      function getRandomValue() {
+        const randomIndex = Math.floor(Math.random() * randomValues.length);
+        return randomValues[randomIndex];
+      }
+      function getRandomSugg() {
+        const randomIndex = Math.floor(Math.random() * suggestionValues.length);
+        return suggestionValues[randomIndex];
+      }
+
+      function setRandomValues() {
+        // Assign random values to the predicted value and impact sections
+        document.getElementById("valuepred").textContent = getRandomValue();
+        document.getElementById("impactpred").innerHTML = getRandomSugg();
+      }
+
+      // Listen for form submission
+      document
+        .getElementById("form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent page refresh
+
+          setRandomValues(); // Set random values
+
+          // Scroll to the prediction section smoothly
+          document.getElementById("prediction-section").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+    </script>
+
+    <!-- Vendor JS Files -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/counterup/counterup.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/venobox/venobox.min.js"></script>
+
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/70fa5628c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
